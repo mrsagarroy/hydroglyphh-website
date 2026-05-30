@@ -153,3 +153,22 @@ border-radius:8px;
 font-weight:bold;
 text-decoration:none;
 }
+#hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.hero-left{
+width:45%;
+}
+
+.hero-right{
+width:50%;
+text-align:center;
+}
+
+.hero-right img{
+max-width:100%;
+height:auto;
+}
