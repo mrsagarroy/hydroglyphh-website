@@ -350,3 +350,28 @@ footer{
     color:#003b8e;
     margin-bottom:30px;
 }
+#quote{
+    background:linear-gradient(135deg,#003b8e,#0d5ecf);
+    padding:100px 20px;
+}
+
+.quote-card{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.quote-card h2{
+    color:#003b8e;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.quote-card p{
+    text-align:center;
+    color:#666;
+    margin-bottom:30px;
+}
