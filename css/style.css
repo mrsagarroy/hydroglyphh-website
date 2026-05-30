@@ -276,3 +276,40 @@ padding:40px 20px;
 border-radius:15px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
+#products,
+#how-it-works,
+#testimonials,
+#quote,
+footer{
+    display:block;
+    width:100%;
+    clear:both;
+}
+
+#how-it-works,
+#testimonials,
+#quote,
+footer{
+    padding:80px;
+    text-align:center;
+}
+
+.product-grid{
+    display:grid !important;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+#trust{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.trust-item{
+    width:220px;
+    min-height:auto;
+}
