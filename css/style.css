@@ -382,3 +382,9 @@ footer{
     max-width:1200px;
     margin:auto;
 }
+.testimonial-card img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
