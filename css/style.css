@@ -375,3 +375,10 @@ footer{
     color:#666;
     margin-bottom:30px;
 }
+.quote-wrapper{
+    display:grid;
+    grid-template-columns:1fr 1.5fr;
+    gap:40px;
+    max-width:1200px;
+    margin:auto;
+}
