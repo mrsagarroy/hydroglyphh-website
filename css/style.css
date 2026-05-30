@@ -1,1 +1,64 @@
-/* Hydroglyphh Website Styles */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f5f8fc;
+color:#002b5b;
+}
+
+header{
+height:90px;
+background:white;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 60px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+section{
+padding:80px 60px;
+}
+
+#hero{
+height:650px;
+background:linear-gradient(135deg,#003b8e,#0ea5ff);
+color:white;
+display:flex;
+align-items:center;
+}
+
+#trust{
+background:white;
+}
+
+#products{
+background:#f7f9fd;
+}
+
+#how-it-works{
+background:white;
+}
+
+#testimonials{
+background:#f7f9fd;
+}
+
+#quote{
+background:#003b8e;
+color:white;
+}
+
+footer{
+background:#002b5b;
+color:white;
+text-align:center;
+padding:30px;
+}
