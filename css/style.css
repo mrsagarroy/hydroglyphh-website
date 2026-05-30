@@ -388,3 +388,13 @@ footer{
     border-radius:50%;
     margin-bottom:15px;
 }
+.cta-banner{
+    text-align:center;
+    padding:80px 20px;
+    background:white;
+}
+
+.cta-banner h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
