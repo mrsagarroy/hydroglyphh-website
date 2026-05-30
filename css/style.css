@@ -258,3 +258,21 @@ border-radius:12px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
 font-weight:600;
 }
+#products{
+padding:80px;
+text-align:center;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+margin-top:40px;
+}
+
+.product-card{
+background:white;
+padding:40px 20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
