@@ -253,3 +253,85 @@ footer{
     border-radius:12px;
     margin-bottom:15px;
 }
+/* HOW IT WORKS */
+
+.steps{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.step{
+    background:white;
+    padding:30px;
+    width:220px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.step h3{
+    color:#003b8e;
+    margin-bottom:10px;
+}
+
+/* TESTIMONIALS */
+
+.testimonial-grid{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.testimonial-card{
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.testimonial-card h4{
+    margin-top:15px;
+    color:#003b8e;
+}
+
+/* QUOTE FORM */
+
+#quote form{
+    max-width:700px;
+    margin:40px auto 0;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#quote input,
+#quote textarea{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+#quote textarea{
+    height:120px;
+}
+
+#quote button{
+    background:white;
+    color:#003b8e;
+    border:none;
+    padding:15px;
+    border-radius:8px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+#quote button:hover{
+    opacity:.9;
+}
