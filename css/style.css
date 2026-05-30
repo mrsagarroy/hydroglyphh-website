@@ -248,3 +248,8 @@ footer{
     width:220px;
     min-height:auto;
 }
+.product-card img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:15px;
+}
