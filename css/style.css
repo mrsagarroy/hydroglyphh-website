@@ -356,6 +356,9 @@ footer{
 }
 
 .quote-card{
+    color:#002b5b;
+}
+.quote-card{
     max-width:800px;
     margin:auto;
     background:white;
@@ -371,8 +374,8 @@ footer{
 }
 
 .quote-card p{
+    color:#666 !important;
     text-align:center;
-    color:#666;
     margin-bottom:30px;
 }
 .quote-wrapper{
