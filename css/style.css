@@ -65,3 +65,42 @@ color:white;
 text-align:center;
 padding:30px;
 }
+.logo-section{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo-section img{
+height:60px;
+}
+
+.brand-text h2{
+font-size:28px;
+color:#003b8e;
+}
+
+.brand-text p{
+font-size:14px;
+color:#555;
+}
+
+nav{
+display:flex;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+font-weight:600;
+color:#003b8e;
+}
+
+.quote-btn{
+background:#003b8e;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
