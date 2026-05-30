@@ -24,7 +24,7 @@ z-index:1000;
 }
 
 section{
-padding:80px 60px;
+padding:60px;
 }
 
 
@@ -38,11 +38,13 @@ background:#f7f9fd;
 }
 
 #how-it-works{
-background:white;
+background:#ffffff;
+padding:70px 60px;
 }
 
 #testimonials{
 background:#f7f9fd;
+padding:70px 60px;
 }
 
 #quote{
@@ -334,4 +336,17 @@ footer{
 
 #quote button:hover{
     opacity:.9;
+}
+.quote-box{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.quote-box h2{
+    color:#003b8e;
+    margin-bottom:30px;
 }
